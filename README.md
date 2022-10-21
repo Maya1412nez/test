@@ -41,3 +41,5 @@ $$
 $$
 \int_{}^{}\frac{dx}{\sqrt{a^2 ± x^2}}=ln|x+\sqrt{x^2 ± a^2}|+C\text{ }\text{ }\text{ }(a > 0)
 $$
+
+![a](imgs/q)
