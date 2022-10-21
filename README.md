@@ -17,18 +17,18 @@
 
     Давайте немного расширим наше определение класса и дадим ему некоторые атрибуты и методы.
 
-```py
-    class MyFirstClass(ParentClass):
-        pass
-        def __init__(self):
-            self.name = 'Author'
-            self.color = 'red'
-        
-        def change_color(self, new_color):
-            self.color = new_color
-        
-        def get_color(self):
-            return self.color
-```
+    ```py
+        class MyFirstClass(ParentClass):
+            pass
+            def __init__(self):
+                self.name = 'Author'
+                self.color = 'red'
+            
+            def change_color(self, new_color):
+                self.color = new_color
+            
+            def get_color(self):
+                return self.color
+    ```
 
->Здесь мы добавили 2 метода и 2 атрибута. Метод `change_color` принимает аргумент `new_color`, после чего мы присваиваем атрибуту  `self.color` значение нового цвета. Метод же `get_color` возвращает значение атрибута `color`.
+    >Здесь мы добавили 2 метода и 2 атрибута. Метод `change_color` принимает аргумент `new_color`, после чего мы присваиваем атрибуту  `self.color` значение нового цвета. Метод же `get_color` возвращает значение атрибута `color`.
